@@ -7,4 +7,4 @@
 }
 
 body {background: var(--un);
-    background: linear-gradient(45deg, var(--deux) 0%, var(--un) 100%);}
+    background: linear-gradient(140deg, var(--un) 0%, var(--deux) 100%);}
