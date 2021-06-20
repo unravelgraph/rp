@@ -6,5 +6,5 @@
     --cinq: #ebeff2;
 }
 
-body {background: var(--trois);
-    background: linear-gradient(90deg, var(--quatre) 0%, var(--trois) 100%);}
+body {background: var(--un);
+    background: linear-gradient(45deg, var(--deux) 0%, var(--un) 100%);}
