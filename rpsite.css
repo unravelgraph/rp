@@ -7,7 +7,7 @@
 }
 
 body 
-{background: var(--un); background: linear-gradient(140deg, var(--un) 0%, var(--deux) 100%); color: var(--trois;)
+{background: var(--un); background: linear-gradient(140deg, var(--un) 0%, var(--deux) 100%); color: var(--trois); font-size: 12px; 
 }
 
-.container1 {background: var(--cinq); border: 1px solid var(--quatre); width: 70%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);}
+.container1 {background: var(--cinq); border: 1px solid var(--quatre); width: 70%; height: 50%; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); padding: 10%;}
