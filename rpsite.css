@@ -1,2 +1,10 @@
-body {body {background: rgb(122,101,151);
-    background: linear-gradient(90deg, rgba(122,101,151,1) 0%, rgba(92,188,226,1) 33%, rgba(122,180,140,1) 66%, rgba(252,176,69,1) 100%);}}
+:root {
+    --un: #d9ba82;
+    --deux: #d9aa55;
+    --trois: #42474a;
+    --quatre: #bfbfbd;
+    --cinq: #ebeff2;
+}
+
+body {background: var(--trois);
+    background: linear-gradient(90deg, var(--quatre) 0%, var(--trois) 100%);}
