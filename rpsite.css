@@ -8,3 +8,5 @@
 
 body {background: var(--un);
     background: linear-gradient(140deg, var(--un) 0%, var(--deux) 100%);}
+
+    .container {background: var(--quatre); border: 2px solid var(--cinq; width: 70%; margin: auto auto;)}
