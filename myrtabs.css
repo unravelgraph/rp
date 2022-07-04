@@ -1,0 +1,7 @@
+.pc-tab {width: 100%;max-width: 700px;margin: 0 auto;}
+.pc-tab ul {list-style: none;margin: 0;padding: 0;}
+.pc-tab ul li label {;float: left;padding: 15px 25px;border: 1px solid #ddd;border-bottom: 0;background: #eee;color: #444;}
+.pc-tab ul li label:hover {background: #ddd;}
+.pc-tab ul li label:active {background: #fff;}
+.pc-tab ul li:not(:last-child) label {border-right-width: 0;}
+.pc-tab > input, .pc-tab section > div {display: none;}
