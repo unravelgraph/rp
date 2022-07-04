@@ -1,8 +1,16 @@
-function openMyrTab(myrtabname) {
-  var i;
-  var x = document.getElementsByClassName("myrtab");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
+function openMyrTab(evt, TabName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("myrtabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-  document.getElementById(myrtabname).style.display = "block";
+  tablinks = document.getElementsByClassName("myrtablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(TabName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
